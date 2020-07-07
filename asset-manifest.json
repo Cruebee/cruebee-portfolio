@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/cruebee-portfolio/static/css/main.5f361e03.chunk.css",
+    "main.js": "/cruebee-portfolio/static/js/main.0e839d13.chunk.js",
+    "main.js.map": "/cruebee-portfolio/static/js/main.0e839d13.chunk.js.map",
+    "runtime-main.js": "/cruebee-portfolio/static/js/runtime-main.40ca8321.js",
+    "runtime-main.js.map": "/cruebee-portfolio/static/js/runtime-main.40ca8321.js.map",
+    "static/js/2.52c252cc.chunk.js": "/cruebee-portfolio/static/js/2.52c252cc.chunk.js",
+    "static/js/2.52c252cc.chunk.js.map": "/cruebee-portfolio/static/js/2.52c252cc.chunk.js.map",
+    "index.html": "/cruebee-portfolio/index.html",
+    "precache-manifest.1e4614709320eb9fcc1b2ee9ef780562.js": "/cruebee-portfolio/precache-manifest.1e4614709320eb9fcc1b2ee9ef780562.js",
+    "service-worker.js": "/cruebee-portfolio/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/cruebee-portfolio/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.52c252cc.chunk.js.LICENSE.txt": "/cruebee-portfolio/static/js/2.52c252cc.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/cruebee-portfolio/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.40ca8321.js",
+    "static/js/2.52c252cc.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.0e839d13.chunk.js"
+  ]
+}
