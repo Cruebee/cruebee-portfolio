@@ -4,13 +4,23 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 8vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: black;
+}
+
+.home-section {
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  min-height: 100vh;
 }
 
 .App-logo {
@@ -30,5 +40,11 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+@media all and (max-width: 648px) {
+  .App-header {
+    min-height: 20vh;
   }
 }

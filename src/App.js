@@ -11,11 +11,13 @@ export default class App extends React.Component {
     return (
       <main id="pageTop" className="App">
         <header className="App-header">
-          <nav>
+          <nav className="navigation-container">
             <AppNavbar />
           </nav>
-          <Home />
         </header>
+        <section className="home-section">
+          <Home />
+        </section>
         <section>
           <div id="aboutMe">
             <AboutMe />

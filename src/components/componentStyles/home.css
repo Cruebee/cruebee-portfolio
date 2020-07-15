@@ -1,0 +1,31 @@
+.home-card {
+  max-width: 600px;
+}
+
+.portrait {
+  float: left;
+  max-width: 325px;
+  height: auto;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.card-contents {
+  margin: 1rem;
+}
+
+h5,
+.h5 {
+  font-size: 40px;
+}
+
+span {
+  color: orange;
+  font-weight: 600;
+}
+
+@media all and (max-width: 648px) {
+  .portrait {
+    float: none;
+  }
+}
