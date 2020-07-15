@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/cruebee-portfolio/static/css/main.08cae3e2.chunk.css",
+    "main.css": "/cruebee-portfolio/static/css/main.c0f5b642.chunk.css",
     "main.js": "/cruebee-portfolio/static/js/main.2e5cce36.chunk.js",
     "main.js.map": "/cruebee-portfolio/static/js/main.2e5cce36.chunk.js.map",
     "runtime-main.js": "/cruebee-portfolio/static/js/runtime-main.40ca8321.js",
@@ -9,10 +9,10 @@
     "static/js/2.a63b59e5.chunk.js": "/cruebee-portfolio/static/js/2.a63b59e5.chunk.js",
     "static/js/2.a63b59e5.chunk.js.map": "/cruebee-portfolio/static/js/2.a63b59e5.chunk.js.map",
     "index.html": "/cruebee-portfolio/index.html",
-    "precache-manifest.62d27cc5a09602b77e4711c27bdd55ac.js": "/cruebee-portfolio/precache-manifest.62d27cc5a09602b77e4711c27bdd55ac.js",
+    "precache-manifest.b252789f40bf71e2033fafc4814c5da8.js": "/cruebee-portfolio/precache-manifest.b252789f40bf71e2033fafc4814c5da8.js",
     "service-worker.js": "/cruebee-portfolio/service-worker.js",
     "static/css/2.829c9cb5.chunk.css.map": "/cruebee-portfolio/static/css/2.829c9cb5.chunk.css.map",
-    "static/css/main.08cae3e2.chunk.css.map": "/cruebee-portfolio/static/css/main.08cae3e2.chunk.css.map",
+    "static/css/main.c0f5b642.chunk.css.map": "/cruebee-portfolio/static/css/main.c0f5b642.chunk.css.map",
     "static/js/2.a63b59e5.chunk.js.LICENSE.txt": "/cruebee-portfolio/static/js/2.a63b59e5.chunk.js.LICENSE.txt",
     "static/media/archery-orig.png": "/cruebee-portfolio/static/media/archery-orig.b1e25313.png"
   },
@@ -20,7 +20,7 @@
     "static/js/runtime-main.40ca8321.js",
     "static/css/2.829c9cb5.chunk.css",
     "static/js/2.a63b59e5.chunk.js",
-    "static/css/main.08cae3e2.chunk.css",
+    "static/css/main.c0f5b642.chunk.css",
     "static/js/main.2e5cce36.chunk.js"
   ]
 }

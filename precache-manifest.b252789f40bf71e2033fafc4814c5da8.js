@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "46fe3ed0a410493f6ef5acd00a3aeab4",
+    "revision": "abe9b6d8ba2ffcee2929eeea39ee60fd",
     "url": "/cruebee-portfolio/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cruebee-portfolio/static/css/2.829c9cb5.chunk.css"
   },
   {
-    "revision": "22c4a5da2c16519b8b04",
-    "url": "/cruebee-portfolio/static/css/main.08cae3e2.chunk.css"
+    "revision": "8bd9d65803a99d993852",
+    "url": "/cruebee-portfolio/static/css/main.c0f5b642.chunk.css"
   },
   {
     "revision": "674524bb621ebc88f9de",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cruebee-portfolio/static/js/2.a63b59e5.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "22c4a5da2c16519b8b04",
+    "revision": "8bd9d65803a99d993852",
     "url": "/cruebee-portfolio/static/js/main.2e5cce36.chunk.js"
   },
   {
