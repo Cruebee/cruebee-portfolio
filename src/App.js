@@ -1,37 +1,33 @@
 import React from 'react';
 import './App.css';
+import Home from './components/Home';
 import AboutMe from './components/AboutMe';
 import Projects from './components/Projects';
 import ContactMe from './components/ContactMe';
 import AppNavbar from './components/AppNavbar';
 
-
-
 export default class App extends React.Component {
-
   render() {
     return (
-      <div className="App">
-        <nav><AppNavbar /></nav>
+      <main id="pageTop" className="App">
         <header className="App-header">
-          <AboutMe />
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-        </a>
+          <nav>
+            <AppNavbar />
+          </nav>
+          <Home />
         </header>
-        <div>
+        <section>
+          <div id="aboutMe">
+            <AboutMe />
+          </div>
+        </section>
+        <div id="projects">
           <Projects />
         </div>
-        <div>
+        <div id="contactMe">
           <ContactMe />
         </div>
-      </div>
+      </main>
     );
   }
 }
-
