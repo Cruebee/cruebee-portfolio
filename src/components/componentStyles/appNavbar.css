@@ -1,7 +1,12 @@
-a.logo-temp.navbar-brand {
-  color: red;
-}
-
 .navbar-dark .navbar-nav .nav-link {
   color: orange;
+}
+
+.cruebee-logo {
+  height: 6rem;
+  margin-left: 0.5rem;
+}
+
+nav {
+  border-radius: 5px;
 }

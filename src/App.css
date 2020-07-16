@@ -13,19 +13,28 @@
   color: black;
 }
 
-.home-section {
-  background-color: #282c34;
+.home-component {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  color: black;
-  min-height: 100vh;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
 }
 
 .App-logo {
-  height: 40vmin;
+  margin: 0;
+  padding: 1rem 2rem 1rem 2rem;
+  height: 30vmin;
   pointer-events: none;
+  border-radius: 100px;
+}
+
+.page-footer {
+  display: flex;
+  justify-content: flex-end;
+  background-color: grey;
+  border-radius: 5px;
+  padding: 1rem;
+  margin-bottom: 2rem;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -43,8 +52,8 @@
   }
 }
 
-@media all and (max-width: 648px) {
-  .App-header {
-    min-height: 20vh;
+@media all and (max-width: 980px) {
+  .home-section {
+    min-height: 72rem;
   }
 }

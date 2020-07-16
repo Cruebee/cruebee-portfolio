@@ -1,8 +1,14 @@
 .home-card {
-  max-width: 600px;
+  background-color: #343a40;
+  border-radius: 5px;
+}
+
+.card-footer {
+  background-color: grey;
 }
 
 .portrait {
+  margin: auto;
   float: left;
   max-width: 325px;
   height: auto;
@@ -11,7 +17,10 @@
 }
 
 .card-contents {
-  margin: 1rem;
+  margin: 4rem 2rem 4rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 h5,
@@ -20,11 +29,15 @@ h5,
 }
 
 span {
-  color: orange;
+  color: #fcc029;
   font-weight: 600;
 }
 
-@media all and (max-width: 648px) {
+.footer-title {
+  color: black;
+}
+
+@media all and (max-width: 667px) {
   .portrait {
     float: none;
   }
