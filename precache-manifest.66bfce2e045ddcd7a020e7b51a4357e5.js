@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a55a354f2aa3b57ed3215537b7124eaf",
+    "revision": "8f2658312b14370fdb4c2e9f85889457",
     "url": "/cruebee-portfolio/index.html"
   },
   {
-    "revision": "da289139ef177c619d96",
+    "revision": "f0e5dd785dfd95cd3abe",
     "url": "/cruebee-portfolio/static/css/2.829c9cb5.chunk.css"
   },
   {
-    "revision": "f558508ebb5c2b5137c3",
-    "url": "/cruebee-portfolio/static/css/main.c6a1f1a3.chunk.css"
+    "revision": "52d36c0dab317c60ffd6",
+    "url": "/cruebee-portfolio/static/css/main.7308e8e7.chunk.css"
   },
   {
-    "revision": "da289139ef177c619d96",
-    "url": "/cruebee-portfolio/static/js/2.b984a1cc.chunk.js"
+    "revision": "f0e5dd785dfd95cd3abe",
+    "url": "/cruebee-portfolio/static/js/2.2be2bf4f.chunk.js"
   },
   {
     "revision": "5ac48c47bb3912b14c2d8de4f56d5ae8",
-    "url": "/cruebee-portfolio/static/js/2.b984a1cc.chunk.js.LICENSE.txt"
+    "url": "/cruebee-portfolio/static/js/2.2be2bf4f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f558508ebb5c2b5137c3",
-    "url": "/cruebee-portfolio/static/js/main.8900f1c7.chunk.js"
+    "revision": "52d36c0dab317c60ffd6",
+    "url": "/cruebee-portfolio/static/js/main.f92a0647.chunk.js"
   },
   {
     "revision": "d43d56916a507f84700c",
