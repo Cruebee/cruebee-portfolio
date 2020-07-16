@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/cruebee-portfolio/precache-manifest.b252789f40bf71e2033fafc4814c5da8.js"
+  "/cruebee-portfolio/precache-manifest.23ae163dfd6d44c6a5fec9d1f2d2c499.js"
 );
 
 self.addEventListener('message', (event) => {
