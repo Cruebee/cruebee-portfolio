@@ -18,6 +18,7 @@ export default class AppNavbar extends React.Component {
             <Nav.Link href="#pageTop">Home</Nav.Link>
             <Nav.Link href="#aboutMe">About Me</Nav.Link>
             <Nav.Link href="#projects">Projects</Nav.Link>
+            <Nav.Link href="#contactMe">Contact Me</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

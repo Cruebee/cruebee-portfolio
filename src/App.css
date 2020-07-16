@@ -1,16 +1,32 @@
+/* Colors
+Grey: #808080;
+DarkGrey: #343a40;
+Midnight: #282C34;
+GoldenRod: #FCC029;
+GhostWhite: #F8F9Fa;
+*/
+
+:root {
+  --Grey: #808080;
+  --DarkGrey: #343a40;
+  --Midnight: #282c34;
+  --GoldenRod: #fcc029;
+  --Ghost: #f8f9fa;
+}
+
 .App {
   text-align: center;
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: var(--Midnight);
   min-height: 8vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: black;
+  color: var(--Ghost);
 }
 
 .home-component {
@@ -31,7 +47,8 @@
 .page-footer {
   display: flex;
   justify-content: flex-end;
-  background-color: grey;
+  max-width: 88vw;
+  background-color: var(--Grey);
   border-radius: 5px;
   padding: 1rem;
   margin-bottom: 2rem;

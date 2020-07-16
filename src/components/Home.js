@@ -40,38 +40,38 @@ export default class Home extends React.Component {
                 Check Out My Code
               </Button>
             </div>
-            <Card.Footer className="card-footer">
-              <h6 className="footer-title">Find Me On</h6>
-              <a
-                href="https://github.com/Cruebee"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img src={GitHub} alt="GitHub Logo" />
-              </a>
-              <a
-                href="https://www.linkedin.com/in/crue-jameson-a8bb0219a/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img src={linkedIn} alt="linkedIn logo" />
-              </a>
-              <a
-                href="https://www.instagram.com/cruebeedoobie/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img src={instagram} alt="Instagram Logo" />
-              </a>
-              <a
-                href="https://twitter.com/cruebee"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img src={twitter} alt="Twitter Logo" />
-              </a>
-            </Card.Footer>
           </Card.Body>
+          <Card.Footer className="home-card-footer">
+            <h6 className="footer-title">Follow Me Here</h6>
+            <a
+              href="https://github.com/Cruebee"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={GitHub} alt="GitHub Logo" />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/crue-jameson-a8bb0219a/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={linkedIn} alt="linkedIn logo" />
+            </a>
+            <a
+              href="https://www.instagram.com/cruebeedoobie/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={instagram} alt="Instagram Logo" />
+            </a>
+            <a
+              href="https://twitter.com/cruebee"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={twitter} alt="Twitter Logo" />
+            </a>
+          </Card.Footer>
         </Card>
       </div>
     );

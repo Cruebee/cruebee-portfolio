@@ -1,10 +1,26 @@
+/* Colors
+Grey: #808080;
+DarkGrey: #343a40;
+Midnight: #282C34;
+GoldenRod: #FCC029;
+GhostWhite: #F8F9Fa;
+*/
+
+:root {
+  --Grey: #808080;
+  --DarkGrey: #343a40;
+  --Midnight: #282c34;
+  --GoldenRod: #fcc029;
+  --Ghost: #f8f9fa;
+}
+
 .home-card {
-  background-color: #343a40;
+  background-color: var(--DarkGrey);
   border-radius: 5px;
 }
 
-.card-footer {
-  background-color: grey;
+.home-card-footer {
+  background-color: var(--Grey);
 }
 
 .portrait {
@@ -29,12 +45,12 @@ h5,
 }
 
 span {
-  color: #fcc029;
+  color: var(--GoldenRod);
   font-weight: 600;
 }
 
 .footer-title {
-  color: black;
+  color: var(--Midnight);
 }
 
 @media all and (max-width: 667px) {
