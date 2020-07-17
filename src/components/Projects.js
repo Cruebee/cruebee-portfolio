@@ -8,20 +8,16 @@ import Button from 'react-bootstrap/Button';
 import Flix from './modals/Flix';
 
 export default class Projects extends React.Component {
-  state = { show: false };
-
-  showFlix = () => {
-    this.setState({ show: true });
-  };
-
-  hideModal = () => {
-    this.setState({ show: false });
-  };
+  constructor(props) {
+    super(props);
+    this.state = { addModalShow: false };
+  }
 
   render() {
+    let addModalClose = () => this.setState({ addModalShow: false });
+
     return (
       <Container>
-        <Flix />
         <CardGroup>
           <Card bg="dark">
             <Card.Img variant="top" src={''} />
@@ -30,13 +26,10 @@ export default class Projects extends React.Component {
               <Card.Text>Brief Project Description</Card.Text>
             </Card.Body>
             <Card.Footer>
-              <Button
-                onClick={(e) => {
-                  this.showFlix();
-                }}
-              >
+              <Button onClick={() => this.setState({ addShowModal: true })}>
                 Project Details
               </Button>
+              <Flix show={this.state.addModalShow} onHide={addModalClose} />
             </Card.Footer>
           </Card>
           <Card bg="dark">
