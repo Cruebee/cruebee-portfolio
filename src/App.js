@@ -31,12 +31,15 @@ export default class App extends React.Component {
             <AboutMe />
           </div>
         </section>
+        <div className="spacer"></div>
         <div id="projects">
           <Projects />
         </div>
+        <div className="spacer"></div>
         <div id="contactMe">
           <ContactMe />
         </div>
+        <div className="spacer"></div>
         <Container className="page-footer">
           <Row>
             <AppFooter />
