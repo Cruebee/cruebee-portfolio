@@ -5,7 +5,7 @@ import CardGroup from 'react-bootstrap/CardGroup';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 
-import Flix from './modals/Flix';
+import { Flix } from './modals/Flix';
 
 export default class Projects extends React.Component {
   constructor(props) {
@@ -14,8 +14,6 @@ export default class Projects extends React.Component {
   }
 
   render() {
-    let addModalClose = () => this.setState({ addModalShow: false });
-
     return (
       <Container>
         <CardGroup>
@@ -29,7 +27,6 @@ export default class Projects extends React.Component {
               <Button onClick={() => this.setState({ addShowModal: true })}>
                 Project Details
               </Button>
-              <Flix show={this.state.addModalShow} onHide={addModalClose} />
             </Card.Footer>
           </Card>
           <Card bg="dark">
