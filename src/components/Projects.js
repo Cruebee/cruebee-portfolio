@@ -1,17 +1,20 @@
 import React from 'react';
 import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
 import CardGroup from 'react-bootstrap/CardGroup';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 
-import { Flix } from './modals/Flix';
+import FlixModal from './modals/FlixModal';
 
 export default class Projects extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = { addModalShow: false };
-  }
+  state = {
+    show: false,
+  };
+  showModal = (e) => {
+    this.setState({
+      show: !this.state.show,
+    });
+  };
 
   render() {
     return (
@@ -24,9 +27,16 @@ export default class Projects extends React.Component {
               <Card.Text>Brief Project Description</Card.Text>
             </Card.Body>
             <Card.Footer>
-              <Button onClick={() => this.setState({ addShowModal: true })}>
+              <Button
+                onClick={(e) => {
+                  this.showModal(e);
+                }}
+              >
                 Project Details
               </Button>
+              <FlixModal onClose={this.showModal} show={this.state.show}>
+                Message In Modal
+              </FlixModal>
             </Card.Footer>
           </Card>
           <Card bg="dark">
